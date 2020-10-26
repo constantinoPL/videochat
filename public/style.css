@@ -26,6 +26,29 @@ video {
 
 .main__right {
   flex: 0.2;
+  display: flex;
+  flex-direction: column;
+  background-color: gainsboro;
+}
+.main__header {
+  color: #2c2727;
+  text-align: center;
+}
+
+.main__chat_window {
+  flex-grow: 1;
+}
+
+.main__message_container {
+  padding: 22px 12px;
+  display: flex;
+}
+
+.main__message_container input {
+  flex-grow: 1;
+  background-color: transparent;
+  border: none;
+  color: #2c2727;
 }
 
 .main_videos {
