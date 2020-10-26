@@ -41,6 +41,7 @@ video {
   background-color: gray;
   color: coral;
   padding: 5px;
+  justify-content: space-between;
 }
 
 .main__controls__block {
@@ -57,4 +58,17 @@ video {
   padding: 8px 10px;
   min-width: 80px;
   cursor: pointer;
+}
+
+.main__controls__button i {
+  font-size: 24px;
+}
+
+.main__controls__button:hover {
+  background-color: #343434;
+  border-radius: 5px;
+}
+
+.leave_meeting {
+  color: red;
 }
