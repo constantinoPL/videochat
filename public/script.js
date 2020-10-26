@@ -47,6 +47,7 @@ navigator.mediaDevices
       $('.messages').append(
         `<li class="message"><b>user</b><br/>${message}</li>`
       );
+      scrollBottom();
     });
   });
 
@@ -69,4 +70,9 @@ const addVideoStream = (video, stream) => {
     video.play();
   });
   videoGrid.append(video);
+};
+
+const scrollBottom = () => {
+  let d = $('.main__chat_window');
+  d.scrollTop(d.prop('scrollHeight'));
 };
