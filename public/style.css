@@ -97,6 +97,7 @@ video {
   color: red;
 }
 
-.unmute {
+.unmute,
+.stop {
   color: red;
 }
